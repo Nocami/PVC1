@@ -19,6 +19,10 @@ PIL (Python Imaging Library)图像库提供了很多常用的图像处理及很�
 ### 直方图均衡化  
 图像均衡化作为预处理操作，在归一化图像强度时是一个很好的方式，并且通过直方图均衡化可以增加图像对比度。  
 下面是运行库中文件 1.3.3直方图均衡化.py 所显示的关于图片直方图均衡化的示例：  
-![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E7%9B%B4%E6%96%B9%E5%9B%BE%E5%9D%87%E8%A1%A1%E5%8C%96.jpg)  
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E7%9B%B4%E6%96%B9%E5%9B%BE%E5%9D%87%E8%A1%A1%E5%8C%96.jpg)   
+  
+ ## 总结  
+ 上述内容为python图像处理的基础部分，简单介绍了一些术语的概念，并且附上了py文件源码以及相应的效果演示示例。  
+ ps：图片为nocami本人，对图片保留肖像权，请勿作他用。  
 
 
