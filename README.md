@@ -18,7 +18,8 @@ PIL (Python Imaging Library)图像库提供了很多常用的图像处理及很�
 ![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E9%AB%98%E6%96%AF%E6%A8%A1%E7%B3%8A.jpg)  
 上面第一幅图为待模糊图像，第二幅用高斯标准差为2进行模糊，第三幅用高斯标准差为5进行模糊，最后一幅用高斯标准差为10进行模糊。关于该模块的使用以及参数选择的更多细节，可以参阅SciPy scipy.ndimage文档[docs.scipy.org/doc/scipy/reference/ndimage.html] 。  
 运行库中附带的 1.4.2高斯图像差分.py ，即可得到对图像差分显示的效果：  
-![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%9B%BE%E5%83%8F%E5%B7%AE%E5%88%86.jpg)  
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%9B%BE%E5%83%8F%E5%B7%AE%E5%88%86.jpg)    
+上面代码中，第一行标准差为2，列分别表示的是x、y和mag,第二行和第三行依次类推。   
 ### 直方图均衡化  
 图像均衡化作为预处理操作，在归一化图像强度时是一个很好的方式，并且通过直方图均衡化可以增加图像对比度。  
 下面是运行库中文件 1.3.3直方图均衡化.py 所显示的关于图片直方图均衡化的示例：  
