@@ -1,4 +1,7 @@
-# PythonComputerVision-1
+# PythonComputerVision-1  
+## 说明：  
+此项目为“python计算机视觉”的新手学习历程，时间跨度大约半年左右，本文为第一集，相关系列文章会随时更新，敬请期待。  
+
 ## python图像处理基础  
 ### PIL-Python图像库  
 PIL (Python Imaging Library)图像库提供了很多常用的图像处理及很多有用的图像基本操作。PIL库下载地址[www.pythonware.com/products/pil/] 。  
