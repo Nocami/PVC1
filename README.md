@@ -45,10 +45,37 @@ https://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.sht
 The PIL (Python Imaging Library) image library provides many common image processing and many useful basic image operations. The PIL library download address ：www.pythonware.com/products/pil  
 The grayscale image is the basis of everything. The following is an example of reading an image and binarizing it (converting it to a grayscale image):  
 Run the code 1.1.py to get the following image:  
-![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%8E%9F%E5%9B%BE%E7%81%B0%E5%BA%A6% E5%9B%BE.jpg)  
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%8E%9F%E5%9B%BE%E7%81%B0%E5%BA%A6%E5%9B%BE.jpg)  
 ### Image outline and histogram  
 
 Image outline and line contours. It is necessary to convert to a grayscale image before drawing the outline of the image, because the contour needs to acquire the pixel value of each coordinate [x, y] position.  
 
-Run 1.2.2 image outline and histogram .py to get the example shown below:  
-![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%9B%BE%E5%83%8F%E8%BD%AE%E5%BB%93% E5%92%8C%E7%9B%B4%E6%96%B9%E5%9B%BE.jpg)  
+Run 1.2.2 图像轮廓和直方图.py to get the example shown below:  
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%9B%BE%E5%83%8F%E8%BD%AE%E5%BB%93%E5%92%8C%E7%9B%B4%E6%96%B9%E5%9B%BE.jpg)  
+
+### Gaussian filtering (Gaussian blur, image difference)  
+
+A classic and very useful example of image convolution is Gaussian blurring of an image. Gaussian blur can be used to define image scales, calculate points of interest, and many other applications.  
+
+The 1.4.1  高斯模糊.py included in the runtime can get the effect of blurring the image:  
+
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E9%AB%98%E6%96%AF%E6%A8%A1%E7%B3%8A.Jpg)  
+
+The first image above is the image to be blurred, the second image is blurred with a Gaussian standard deviation of 2, the third image is blurred with a Gaussian standard deviation of 5, and the last image is blurred with a Gaussian standard deviation of 10. For more details on the use of this module and the choice of parameters, see the SciPy scipy.ndimage document [docs.scipy.org/doc/scipy/reference/ndimage.html].
+The 1.4.2 高斯图像差分.py included in the runtime can be used to achieve differential image display:
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%9B%BE%E5%83%8F%E5%B7%AE%E5%88%86. Jpg)
+In the above code, the first line has a standard deviation of 2, the columns represent x, y, and mag, respectively, and the second and third lines are analogous.  
+
+### Histogram equalization    
+
+Image equalization as a pre-processing operation is a good way to normalize image intensity, and image contrast can be increased by histogram equalization.  
+
+The following is an example of the file histogram equalization displayed in the 1.5.3 histogram equalization .py file in the runtime library:  
+
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E7%9B%B4%E6%96%B9%E5%9B%BE%E5%9D%87%E8%A1%A1%E5%8C%96.jpg)
+  
+ ## Summary  
+ 
+ The above is the basic part of Python image processing. It briefly introduces the concept of some terms, and attaches the py file source code and corresponding effect demonstration examples.
+ Ps: The picture is nocami himself. Keep the portrait right on the picture. Please do not use it for other purposes.
+
