@@ -1,16 +1,10 @@
 # PythonComputerVision-1  
 ## 说明：  
 此项目为“python计算机视觉”的新手学习历程，时间跨度大约半年左右，本文为第一集，相关系列文章会随时更新，敬请期待。  
-## Description:  
-This project is a newcomer learning course of "Python Computer Vision". The time span is about half a year. This article is the first episode. The related series of articles will be updated at any time, so stay tuned.  
 ## 注意：  
 此项目所有代码均运行与Python 2.7.10版本，所需库文件需自行下载，这里推荐直接安装python(x,y)，其中不仅包括了python本身，还附带有所需的所有库文件以及编译器。下载链接：  
 https://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.shtml  
 ![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E6%8D%95%E8%8E%B7.JPG)  
-## Note:  
-All the code of this project is running with Python version 2.7.10. The required library files need to be downloaded by yourself. It is recommended to install python (x, y) directly, which includes not only python itself, but also all the required library files and compilation. Device. Download link:  
-https://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.shtml
-
 
 ## python图像处理基础  
 ### PIL-Python图像库  
@@ -38,3 +32,23 @@ PIL (Python Imaging Library)图像库提供了很多常用的图像处理及很�
  ## 总结  
  上述内容为python图像处理的基础部分，简单介绍了一些术语的概念，并且附上了py文件源码以及相应的效果演示示例。  
  ps：图片为nocami本人，对图片保留肖像权，请勿作他用。    
+## ---------------------------------------------------  
+# PythonComputerVision-1  
+## Description:  
+This project is a newcomer learning course of "Python Computer Vision". The time span is about half a year. This article is the first episode. The related series of articles will be updated at any time, so stay tuned.    
+## Note:  
+All the code of this project is running with Python version 2.7.10. The required library files need to be downloaded by yourself. It is recommended to install python (x, y) directly, which includes not only python itself, but also all the required library files and compilation. Device. Download link:  
+https://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.shtml  
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E6%8D%95%E8%8E%B7.JPG)  
+## python image processing basics  
+### PIL-Python Image Library  
+The PIL (Python Imaging Library) image library provides many common image processing and many useful basic image operations. The PIL library download address ：www.pythonware.com/products/pil  
+The grayscale image is the basis of everything. The following is an example of reading an image and binarizing it (converting it to a grayscale image):  
+Run the code 1.1.py to get the following image:  
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%8E%9F%E5%9B%BE%E7%81%B0%E5%BA%A6% E5%9B%BE.jpg)  
+### Image outline and histogram  
+
+Image outline and line contours. It is necessary to convert to a grayscale image before drawing the outline of the image, because the contour needs to acquire the pixel value of each coordinate [x, y] position.  
+
+Run 1.2.2 image outline and histogram .py to get the example shown below:  
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%9B%BE%E5%83%8F%E8%BD%AE%E5%BB%93% E5%92%8C%E7%9B%B4%E6%96%B9%E5%9B%BE.jpg)  
