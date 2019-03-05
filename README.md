@@ -32,7 +32,7 @@ PIL (Python Imaging Library)图像库提供了很多常用的图像处理及很�
  ## 总结  
  上述内容为python图像处理的基础部分，简单介绍了一些术语的概念，并且附上了py文件源码以及相应的效果演示示例。  
  ps：图片为nocami本人，对图片保留肖像权，请勿作他用。    
-## ------------------------------------------------------------------------------  
+## -------------------------------------------------------------------------------------  
 # PythonComputerVision-1  
 ## Description:  
 This project is a newcomer learning course of "Python Computer Vision". The time span is about half a year. This article is the first episode. The related series of articles will be updated at any time, so stay tuned.    
@@ -40,7 +40,7 @@ This project is a newcomer learning course of "Python Computer Vision". The time
 All the code of this project is running with Python version 2.7.10. The required library files need to be downloaded by yourself. It is recommended to install python (x, y) directly, which includes not only python itself, but also all the required library files and compilation. Device. Download link:  
 https://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.shtml  
 ![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E6%8D%95%E8%8E%B7.JPG)  
-## python image processing basics  
+## Python image processing basics  
 ### PIL-Python Image Library  
 The PIL (Python Imaging Library) image library provides many common image processing and many useful basic image operations. The PIL library download address ：www.pythonware.com/products/pil  
 The grayscale image is the basis of everything. The following is an example of reading an image and binarizing it (converting it to a grayscale image):  
@@ -59,7 +59,7 @@ A classic and very useful example of image convolution is Gaussian blurring of a
 
 The 1.4.1  高斯模糊.py included in the runtime can get the effect of blurring the image:    
 ![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E9%AB%98%E6%96%AF%E6%A8%A1%E7%B3%8A.jpg)      
-The first image above is the image to be blurred, the second image is blurred with a Gaussian standard deviation of 2, the third image is blurred with a Gaussian standard deviation of 5, and the last image is blurred with a Gaussian standard deviation of 10. For more details on the use of this module and the choice of parameters, see the SciPy scipy.ndimage document [docs.scipy.org/doc/scipy/reference/ndimage.html].  
+The first image above is the image to be blurred, the second image is blurred with a Gaussian standard deviation of 2, the third image is blurred with a Gaussian standard deviation of 5, and the last image is blurred with a Gaussian standard deviation of 10. For more details on the use of this module and the choice of parameters, see the SciPy scipy.ndimage document  docs.scipy.org/doc/scipy/reference/ndimage.html.  
 The 1.4.2 高斯图像差分.py included in the runtime can be used to achieve differential image display:  
 ![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E5%9B%BE%E5%83%8F%E5%B7%AE%E5%88%86.jpg)  
 In the above code, the first line has a standard deviation of 2, the columns represent x, y, and mag, respectively, and the second and third lines are analogous.  
