@@ -32,9 +32,11 @@ PIL (Python Imaging Library)图像库提供了很多常用的图像处理及很�
   
  ## 总结  
  上述内容为python图像处理的基础部分，简单介绍了一些术语的概念，并且附上了py文件源码以及相应的效果演示示例。  
- ps：图片为nocami本人，对图片保留肖像权，请勿作他用。  
+ ps：图片为nocami本人，对图片保留肖像权，请勿作他用。    
+ # ----------------------------------------------------------------------------------------------------------------------------------  
+ # ----------------------------------------------------------------------------------------------------------------------------------
   
- # EnglishEdition
+# EnglishEdition
 # PythonComputerVision-1
 ## Description:
 This project is a newcomer learning course of "Python Computer Vision". The time span is about half a year. This article is the first episode. The related series of articles will be updated at any time, so stay tuned.
