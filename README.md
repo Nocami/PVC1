@@ -32,7 +32,7 @@ PIL (Python Imaging Library)图像库提供了很多常用的图像处理及很�
  ## 总结  
  上述内容为python图像处理的基础部分，简单介绍了一些术语的概念，并且附上了py文件源码以及相应的效果演示示例。  
  ps：图片为nocami本人，对图片保留肖像权，请勿作他用。    
-## ---------------------------------------------------  
+## ------------------------------------------------------------------------------  
 # PythonComputerVision-1  
 ## Description:  
 This project is a newcomer learning course of "Python Computer Vision". The time span is about half a year. This article is the first episode. The related series of articles will be updated at any time, so stay tuned.    
@@ -70,9 +70,9 @@ Image equalization as a pre-processing operation is a good way to normalize imag
 
 The following is an example of the file histogram equalization displayed in the 1.5.3 histogram equalization .py file in the runtime library:  
 
-![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E7%9B%B4%E6%96%B9%E5%9B%BE%E5%9D%87%E8%A1%A1%E5%8C%96.jpg)
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E7%9B%B4%E6%96%B9%E5%9B%BE%E5%9D%87%E8%A1%A1%E5%8C%96.jpg)  
   
- ## Summary  
+## Summary  
  
  The above is the basic part of Python image processing. It briefly introduces the concept of some terms, and attaches the py file source code and corresponding effect demonstration examples.
  Ps: The picture is nocami himself. Keep the portrait right on the picture. Please do not use it for other purposes.
