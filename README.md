@@ -3,7 +3,8 @@
 此项目为“python计算机视觉”的新手学习历程，时间跨度大约半年左右，本文为第一集，相关系列文章会随时更新，敬请期待。  
 ## 注意：  
 此项目所有代码均运行与Python 2.7.10版本，所需库文件需自行下载，这里推荐直接安装python(x,y)，其中不仅包括了python本身，还附带有所需的所有库文件以及编译器。下载链接：  
-https://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.shtml   
+https://www.softpedia.com/get/Programming/Other-Programming-Files/Python-x-y.shtml  
+![image](https://github.com/Nocami/PythonComputerVision-1/blob/master/image/%E6%8D%95%E8%8E%B7.JPG)
 
 
 ## python图像处理基础  
